@@ -17,8 +17,8 @@ RMT::Config.define("sample") do
 		# the Trello "secret" (can be retrieved from https://trello.com/1/appKey/generate)
 		:secret => "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 
-		# the Trello user token (can be generated with various expiration dates and
-		#   permissions via instructions at https://trello.com/docs/gettingstarted/index.html#getting-a-token-from-a-user)
+		# the Trello user token - can be generated here:
+		# https://trello.com/1/authorize?key=YOURKEY&scope=read%2Cwrite&name=My+Application&expiration=never&response_type=token
 		:user_token => "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 
 		# the Trello list ID where the cards should be created.  To find this value, navigate to
